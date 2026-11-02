@@ -1,0 +1,88 @@
+// src/data/projects.ts
+import { Project } from '@/types';
+
+export const projects: Project[] = [
+  {
+    id: 'code-tracker',
+    title: 'CodeTracker',
+    description: 'A full-stack coding progress dashboard aggregating data from 5 competitive programming platforms. Developed backend API workflows and GraphQL-based data aggregation for collecting and processing coding statistics.',
+    techStack: ['React', 'Node.js', 'GraphQL', 'Chart.js','Typescript'],
+    liveDemo: 'https://main-bkub.vercel.app/',
+    repo: 'https://github.com/Ubiquity89/CodeTracker',
+    image: '/codetracker.png',
+  },
+  {
+    id: 'ai-interview',
+    title: 'AI Mock Interview Platform',
+    description: 'A MERN-based AI interview platform integrating OpenAI API for dynamic question generation and response analysis. Implemented role-based quizzes, authentication, and performance analysis for personalized interview practice.',
+    techStack: ['OpenAI API', 'MERN', 'Tailwind'],
+    liveDemo: 'https://ai-powered-interview-tau.vercel.app/',
+    repo: 'https://github.com/Ubiquity89/AIPoweredInterview',
+    image:  '/image1.png',
+  },
+  {
+    id: 'skill-gap-analyzer',
+    title: 'SkillGapAnalysis',
+    description: 'A MERN-based resume analysis application using TF-IDF and pattern matching for technical skill extraction. Implemented cosine similarity and Jaccard index to compare resumes with job descriptions. Integrated Firebase authentication and developed user workflows for resume analysis and skill-gap identification.',
+    techStack: ['MERN', 'Firebase', 'NLP'],
+    liveDemo: 'https://skill-gap-u6ft.vercel.app/',
+    repo: 'https://github.com/Ubiquity89/SkillGap',
+    image: '/image.png',
+  },
+  {
+    id: 'recontent-ai',
+    title: 'ReContent_AI',
+    description: 'An AI-powered content repurposing application built with the MERN stack that transforms existing content into multiple formats for different platforms using AI.',
+    techStack: ['MERN', 'Firebase', 'NLP'],
+    liveDemo: 'https://contentttaiii.netlify.app/',
+    repo: 'https://github.com/Ubiquity89/ReContent_AI',
+    image: '/image2.png',
+  },
+
+  {
+    id: 'expglo-website',
+    title: 'ExpgloBusiness Website',
+    description: 'Professional website development project built during an internship, implemented dynamic Events, News, and Careers modules with API integration, authentication, and admin functionality.',
+    techStack: ['React', 'ExpressJs','CSS', 'Email.js'],
+    liveDemo: 'https://expglobusiness.com/',
+    repo: 'https://github.com/Ubiquity89/Expglo',
+    image: '/image3.png',
+  },
+  {
+    id: 'weather-app',
+    title: 'Weather App',
+    description: 'A real time weather application that provides weather uodates using OpenWeatherAPI',
+    techStack: ['HTML', 'Tailwind CSS', 'JavaScript','Web Speech API','OpenWeatherAPI'],
+    liveDemo: 'https://weatherrealtimee.netlify.app/',
+    repo: 'https://github.com/Ubiquity89/WeatherApp/tree/master',
+    image: '/image6.png',
+  },
+  {
+    id: 'rockpaperscissor',
+    title: 'Rock Paper Scissor',
+    description: 'A simple rock paper scissor game built with HTML, CSS, and JavaScript',
+    techStack: ['HTML', 'Tailwind CSS', 'JavaScript'],
+    liveDemo: 'https://rockpaperrscissorrr.netlify.app/',
+    repo: 'https://github.com/Ubiquity89/RockPaperScissor',
+    image: '/image17.png',
+  },
+  {
+    id: 'titactoe',
+    title: 'Tic Tac Toe',
+    description: 'A simple tic tac toe game built with HTML, CSS, and JavaScript',
+    techStack: ['HTML', 'Tailwind CSS', 'JavaScript'],
+    liveDemo: 'https://ticctacctoee89.netlify.app/',
+    repo: 'https://github.com/Ubiquity89/TicTacToe',
+    image: '/image19.png',
+  },
+  {
+    id: 'landingpage',
+    title: 'Landing Page',
+    description: 'A simple landing page built with HTML, CSS, and JavaScript',
+    techStack: ['React', 'Framer Motion'],
+    liveDemo: 'https://landing-page-delta-fawn-79.vercel.app/',
+    repo: 'https://github.com/Ubiquity89/LandingPage',
+    image: '/image18.png',
+  },
+
+];
